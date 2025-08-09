@@ -3394,5 +3394,6 @@ body.homepage #header:after {
 
 .poster .overlay h3,
 .poster .overlay p {
-  color: white;
+  color: white;                  /* Ensure contrast */
+  max-width: 90%;                /* Avoid hitting edges */
 }
